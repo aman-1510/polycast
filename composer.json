@@ -4,13 +4,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "leemason",
-            "email": "contact@nohalfpixels.com"
+            "name": "aman-1510",
+            "email": "amangupta.iitian@gmail.com"
         }
     ],
     "require": {
-        "illuminate/support": "5.7.*|5.8.*",
-        "illuminate/database": "5.7.*|5.8.*"
+        "illuminate/support": "5.*",
+        "illuminate/database": "5.*"
     },
     "require-dev": {
         "phpunit/phpunit": "7.0"
