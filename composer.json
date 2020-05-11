@@ -1,5 +1,5 @@
 {
-    "name": "aman-1510/polycast",
+    "name": "leemason/polycast",
     "version": "1.0.1",
     "description": "Laravel Websocket broadcasting polyfill using ajax and mysql.",
     "license": "MIT",
