@@ -1,6 +1,6 @@
 {
     "name": "leemason/polycast",
-    "version": "1.0.1",
+    "version": "v1.3.0",
     "description": "Laravel Websocket broadcasting polyfill using ajax and mysql.",
     "license": "MIT",
     "authors": [
