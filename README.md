@@ -1,7 +1,3 @@
-## Polycast
-[![Packagist License](https://poser.pugx.org/leemason/polycast/license.png)](http://choosealicense.com/licenses/mit/)
-[![Latest Stable Version](https://poser.pugx.org/leemason/polycast/version.png)](https://packagist.org/packages/leemason/polycast)
-[![Total Downloads](https://poser.pugx.org/leemason/polycast/d/total.png)](https://packagist.org/packages/leemason/polycast)
 
 Laravel Websocket broadcasting polyfill using ajax and mysql. Laravel 5.1 or Later
 
@@ -215,30 +211,6 @@ bower install leemason-polycast
 
 The package script can then be accessed from the ```bower_components/leemason-polycast/dist/js/polycast(.min).js``` path.
 
-## NPM Usage
-
-The polycast package is registered on npm using the name ```leemason-polycast``` and can be installed by running:
-
-```
-npm install leemason-polycast
-```
-
-The package script can then be accessed from the ```node_modules/leemason-polycast/dist/js/polycast(.min).js``` path.
-
-## Webpack Usage
-
-The polycast package script files are generated using gulp/webpack, this offers advantages when developing your javascript via script loaders.
-
-Usage is as follows:
-
-```javascript
-var Polycast = require('leemason-polycast');//this is npm usage, if using bower you will need to provide the full path
-var poly = new Polycast({...});
-```
-
-The package is still in early development (but is stable) so expect new methods and features soon.
-
-## FAQ
 
 **Does this require jQuery?**
 
