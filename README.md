@@ -10,7 +10,7 @@ Laravel Websocket broadcasting polyfill using ajax and mysql. Laravel 5.1 or Lat
 Require this package with composer:
 
 ```
-composer require leemason/polycast
+composer require aman-1510/polycast
 ```
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
@@ -39,7 +39,7 @@ php artisan vendor:publish --tag=public --force
 Migrate the packages database migrations (creates the polycast_events table):
 
 ```php
-php artisan migrate --path=vendor/leemason/polycast/migrations
+php artisan migrate --path=vendor/aman-1510/polycast/migrations
 ```
 
 ## Usage
