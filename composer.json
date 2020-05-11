@@ -1,5 +1,5 @@
 {
-    "name": "leemason/polycast",
+    "name": "aman-1510/polycast",
     "description": "Laravel Websocket broadcasting polyfill using ajax and mysql.",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LeeMason\\Polycast\\": "src"
+            "aman-1510\\polycast\\": "src"
         }
     }
 }
